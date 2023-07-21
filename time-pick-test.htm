@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> time-pick.js </script></title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        .button{
+            padding: 1em;
+            border: 1px solid #DDD;
+            background-color: transparent;
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <H1>TimePick</H1><small>Version - 1.0</small> <br><br>
+    <i>ID based TimePick create with value</i><br><br>
+    <input type="text" id="timePick" value="08:06:04">
+
+    <br><br>
+    <i>Class based TimePick create</i><br><br>
+    <input type="text" class="timePicker"/><br><br>
+    <input type="text" class="timePicker"/><br><br>
+    <input type="text" class="timePicker"/><br><br>
+
+    <br><br>
+
+    <a href="www.google.com" class="button" style="position: relative;z-index: 10;" target="_blank">DOWNLOAD TIMEPICK</a>
+    <br><br><br>
+
+    <textarea style="height: 200px; width: 40%; position: relative;z-index: 10;"> 
+    <input type="text" id="timePick" value="08:06:04">
+
+    <input type="text" class="timePicker"/>
+    <input type="text" class="timePicker"/>
+    <input type="text" class="timePicker"/>
+    
+    <script src="./time-pick.js"></script>
+    <script>
+        var timepicker = new TimePick('#timePick');
+        var timepickerz = new TimePick('.timePicker');
+    </script> 
+    </textarea>
+
+    <br><br>
+
+    <i style="position: relative;z-index: 10;">Plugin Developed By : <a href="https://katheesh.js.org" target="_blank">KATHEESKUMAR <small>(https://katheesh.js.org)</small></a></i>
+    <br><br><br>
+    <i> 
+        <b>Community</b>
+        <br>
+        TimePick.js is an open source project, shared under an MIT license. All code and discussions are hosted on Github.
+        
+        Contributions are very welcome – please read these pointers before submitting a bug report or feature request.
+        
+        If you find this library useful and would like to see further development, consider supporting it.</i>
+    
+    <script src="./time-pick.min.js"></script>
+    <script>
+        var timepicker = new TimePick('#timePick');
+        var timepickerz = new TimePick('.timePicker');
+    </script>
+
+
+    
+</body>
+</html>
